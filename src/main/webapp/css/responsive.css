@@ -1,0 +1,52 @@
+
+
+    html{
+    font-size: 25px;
+}
+    h1{
+        font-size: 2rem;
+        padding: 1rem;
+        color: black;
+    }
+    p{
+        
+        font-size: 1rem;
+        padding: 1rem;
+        color: black;
+    }
+    
+@media(min-width:800px){
+    body{
+    background-image: url(../fondo/f2a.jpg);
+    background-size: cover;
+    
+}
+    html{
+    font-size: 35px;
+}
+}
+
+    @media(min-width:1000px){
+        body{
+            background-image:url(../fondo/f38.jpg);
+            background-size: cover;
+           
+        }
+        html{
+            font-size: 50px;
+            
+        }
+        
+        
+    }
+    @media(min-width:1300px){
+        body{
+             background-image:url(../fondo/f1.jpg);
+            background-size: cover;
+        }
+        html{
+            font-size: 70px;
+            
+        }
+        
+    }
